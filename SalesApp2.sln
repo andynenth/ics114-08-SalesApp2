@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesApp2", "SalesApp2\SalesApp2.csproj", "{B4BD5EA2-22E1-47DF-B6E8-815EC2381CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4BD5EA2-22E1-47DF-B6E8-815EC2381CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BD5EA2-22E1-47DF-B6E8-815EC2381CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BD5EA2-22E1-47DF-B6E8-815EC2381CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BD5EA2-22E1-47DF-B6E8-815EC2381CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D57B9AF6-9267-45DA-BC05-A97A07AFC84A}
+	EndGlobalSection
+EndGlobal
