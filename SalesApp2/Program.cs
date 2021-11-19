@@ -172,21 +172,21 @@ namespace SalesApp2
             {
                 Write("{0, 10}", productName[i]);
             }
-            //Add header
+            //Add "Sales Total" header
             WriteLine("{0, 15}", "Sales Total");
 
             for (int row = 0; row < sales.GetLength(0); row++)
             {
                 Console.Write(" {0,-12}", salesAreaName[row]);
-                //Initailize 
+                //Initialize salesTotal.
                 double salesTotal = 0;
                 for (int col = 0; col < sales.GetLength(1); col++)
                 {
                     Console.Write("{0,10:F2}", sales[row, col]);
-                    //Sum sales
+                    //Summarize sales.
                     salesTotal += sales[row, col];
                 }
-                //Display
+                //Display total sales amount.
                 Console.WriteLine("{0,15:F2}", salesTotal);
             }
 
